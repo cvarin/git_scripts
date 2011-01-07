@@ -7,7 +7,7 @@ reset_color='tput sgr0'
 
 ###############################################################################
 echo
-reps=$(ls --ignore=list --ignore=*.sh)
+reps=$(ls --ignore=*.py --ignore=*.sh)
 for i in $reps 
   do 
      echo -e "$red$i"; $reset_color
